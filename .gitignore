@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local Large Data & Model Binaries
+# (Keep sample demo datasets, but exclude 150MB Kaggle CSV and large models from Git)
+data/creditcard.csv
+data/*.zip
+
+# OS Specific
+.DS_Store
+Thumbs.db
